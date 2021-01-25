@@ -1,0 +1,98 @@
+/* must important to link for font */
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+.carousel-caption{
+    color: #fff;
+    font-family: 'Potta One', cursive;
+    padding-bottom: 40vh;
+
+}
+body{
+    background-color: #fbd2d7;
+}
+header .btn1{
+    color:#fff ;
+    background-color:#ffc0cb ;
+    text-decoration: none;padding: 12px 25px;border-radius: 4px;outline: none;text-transform: uppercase;font-size: 13px;font-weight: 500;letter-spacing: 1px;transition: all 0.5s ease;;
+}
+header .btn2{
+    color:#fff ;
+    background-color:#ffc0cb ;
+    text-decoration: none;padding: 12px 25px;border-radius: 4px;outline: none;text-transform: uppercase;font-size: 13px;font-weight: 500;letter-spacing: 1px;transition: all 0.5s ease;;
+}
+header .carousel-caption .btn1:hover{
+    background-color: #ff8da1;
+}
+header .carousel-caption .btn2:hover{
+    background-color: #ff8da1;
+}
+header .carousel-item{
+height: 100vh;
+}
+header .carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:360px){
+    header .btn1{
+        color:#fff ;
+        background-color:#ffc0cb ;
+        text-decoration: none;padding: 12px 10px;border-radius: 4px;outline: none;text-transform: uppercase;font-size: 13px;font-weight: 500;letter-spacing: 1px;transition: all 0.5s ease;;
+    }
+    header .btn2{
+        color:#fff ;
+        background-color:#ffc0cb ;
+        text-decoration: none;padding: 12px 10px;border-radius: 4px;outline: none;text-transform: uppercase;font-size: 13px;font-weight: 500;letter-spacing: 1px;transition: all 0.5s ease;;
+    }
+
+}
+
+
+
+
+/* MIDDLE STUFF */
+
+
+
+
+.middle-stuff{
+    min-height: 100%;
+}
+.middle-stuff .our-services{
+    font-family:'Potta One', cursive; ;
+    text-align: left;
+    text-decoration: underline #664c51;
+    margin-left:1.5rem ;
+    margin-top:2rem ;
+
+}
+.middle-stuff #para{
+    margin-left: 1rem;
+}
+/* cards */
+
+.card{
+    margin: 5% 0%;
+    transition: .3s all ease;
+    background-color: #ff8da1;
+  }
+  
+  .card-body{
+    margin: 0% 0% 0% 3%;
+    padding: 6% 0%;
+  }
+  .card:hover {
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.19), 5px 6px 6px rgba(0,0,0,0.23);
+    transition: .3s all ease;
+  }  
+/* //cards */
+/* //MIDDLE STUFF */
+
+
+header .carousel-inner .carousel-item .carousel-caption{
+    text-shadow: 1px 1px 2px black;
+    
+}
+header .carousel-inner .carousel-item .carousel-caption .btndiv{
+    line-break: auto;
+}

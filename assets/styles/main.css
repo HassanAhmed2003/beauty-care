@@ -1,0 +1,198 @@
+
+/* Theme color: #ffc0cb
+*   Accent color: #664c51 (font color)
+*   Contrast color: #ff8da1
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+   html, body {
+     height: 100%;
+      margin: 0;
+      font-family:'Noto Sans JP', sans-serif;
+      background-color: #fbd2d7;
+      
+    }
+    /* Nav */
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #ffc0cb;
+    }
+
+    .topnav img {
+       margin-top: 3px;
+    }
+    
+    .topnav a {
+      float: right;
+      display: block;
+      color: #664c51;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 19px;
+      margin-top: 7px;
+      transition: 0.3s ease-out;
+    }
+    
+    .topnav a:hover {
+      background-color: #ff8da1;
+      color: #664c51;
+      transition: 0.3s ease-out;
+    }
+    .topnav .icon {
+      display: none;
+      transition: 0.3s ease-out;
+    }
+    /* nav ends */
+  .btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+  }
+  .btn-big:hover{
+    background-color: #ff8da1;
+    color:white ;
+  }
+  .middle-stuff{
+    min-height: 100%;
+}
+  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+#footer {
+    background:  #ffc0cb !important;
+}
+#footer h2{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#664c51;
+    font-family: 'Potta One', cursive;;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a{
+  color: #ff8da1;
+}
+#footer ul.quick-links li a{
+	color:white;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .3s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+  font-weight:700;
+  transition: .3s all ease ;
+}
+#footer ul.quick-links li a i{
+  margin-right: 5px;
+  transition: .3s all ease ;
+}
+#footer ul.quick-links li a{
+  color: #664c51;
+  transition: .3s all ease ;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+    color: #ffff;
+    transition: .3s all ease ;
+}
+#footer ul.quick-links li:hover a{
+  font-weight: 700;
+    color: #ffff;
+    transition: .3s all ease ;
+}
+#footer .container .contactus input:focus{
+  background-color:  #ff8da1;
+}
+#footer .container .contactus textarea:focus{
+  background-color:  #ff8da1;
+
+}
+#footer .container .contactus input,textarea{
+  background: #ff8da1;  
+  color: #664c51;  
+  margin-bottom: 10px;
+  border-radius: 4px;
+  line-height: 3rem;
+  border: none;
+  width: 25rem;
+  padding-left: 5px;
+  
+  
+}
+#footer .container .contactus input{
+  padding-right: 17px;
+}
+/* media */
+@media (max-width:768px){
+	#footer h2 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+@media (max-width:1268px){
+  #footer .container .contactus input,textarea{
+    width: 15rem;
+  }
+}
+    
+    
+    /* media */
+    @media screen and (max-width: 768px) {
+      .topnav a {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-decoration: none;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
